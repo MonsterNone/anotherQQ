@@ -1,6 +1,6 @@
 # anotherQQ
 
-Just another QQ client folked from w.qq.com.
+Just another QQ client folked from http://w.qq.com.
 
 But it's for python3!
 
