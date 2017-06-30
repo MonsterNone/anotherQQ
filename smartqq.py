@@ -269,10 +269,10 @@ def getuin(mark):
         return u.fetchone()[0]
 
 
-def getcate(fuin):
+def getcate(fri_uin):
     conn = sqlite3.connect('friends.db')
     cu = conn.cursor()
-    u = cu.execute('SELECT category FROM friends WHERE uin=(?)',(fuin,))
+    u = cu.execute('SELECT category FROM friends WHERE uin=(?)',(fri_uin,))
     if not u:
         print('没有这个人')
     else:
